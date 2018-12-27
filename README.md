@@ -6,7 +6,7 @@ redis 分布式锁
 
 	composer require youngyezi/mutex 
 	
-## register service provider `bootstrap\app.php`
+## register  `bootstrap\app.php`
 
 	$app->register(Youngyezi\Mutex\MutexServiceProvider::class);
 			

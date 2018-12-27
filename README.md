@@ -5,13 +5,13 @@ redis 分布式锁
 ## install
 
 	composer require youngyezi/mutex 
-	
-### register service provider `bootstrap\app.php`
 
-	$app->register(Youngyezi\Mutex\MutexServiceProvider::class);
 			
 ## usge
-    $mutex = app('mutex');
+    use Youngyezi\Mutex\Mutex;
+    
+    
+    $mutex = new Mutex();
     
     if( $mutex->lock("test") ) {
     

@@ -1,0 +1,20 @@
+{
+    "name": "youngyezi/mutex",
+    "description": "Redis mutex for Lumen，Lumen 分布式锁",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "youngyezi"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Youngyezi\\Mutex\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "minimum-stability": "dev"
+}
